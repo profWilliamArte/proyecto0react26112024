@@ -9,6 +9,7 @@ import Producto1 from "./pages/(productos)/Producto1"
 import Producto3 from "./pages/(productos)/Producto3"
 import Producto2 from "./pages/(productos)/Producto2"
 import Contactos from "./pages/Contactos"
+import Producto4 from "./pages/(productos)/Producto4"
 
 
 
@@ -26,6 +27,7 @@ const App = () => {
             <Route path="/producto1" element={<Producto1/>}/>
             <Route path="/producto2" element={<Producto2/>}/>
             <Route path="/producto3" element={<Producto3/>}/>
+            <Route path="/producto4" element={<Producto4/>}/>
             <Route path="/contactos" element={<Contactos/>}/>
             <Route path="*" element={<Error404/>}/>
           </Routes>
