@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const Producto4 = () => {
+const Tabla4 = () => {
   const [tablaSeleccionada, setTablaSeleccionada] = useState(1);
   const [hasta, setHasta] = useState(10); // Estado para controlar hasta dónde mostrar la tabla
   const botones = Array.from({ length: 15 }, (_, i) => i + 1); // Genera números del 1 al 15
@@ -47,4 +47,4 @@ const Producto4 = () => {
   );
 };
 
-export default Producto4;
+export default Tabla4;

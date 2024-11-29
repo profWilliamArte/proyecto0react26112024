@@ -28,10 +28,10 @@ const Header = () => {
                 Productos
             </a>
             <ul className="dropdown-menu">
-                <li><Link to={"/producto1"} className="dropdown-item" href="#">Producto I</Link></li>
-                <li><Link to={"/producto2"} className="dropdown-item" href="#">Producto II</Link></li>
-                <li><Link to={"/producto3"} className="dropdown-item" href="#">Producto III</Link></li>
-                <li><Link to={"/producto4"} className="dropdown-item" href="#">Producto IV</Link></li>
+                <li><Link to={"/tabla1"} className="dropdown-item" href="#">Producto I</Link></li>
+                <li><Link to={"/tabla2"} className="dropdown-item" href="#">Producto II</Link></li>
+                <li><Link to={"/tabla3"} className="dropdown-item" href="#">Producto III</Link></li>
+                <li><Link to={"/tabla4"} className="dropdown-item" href="#">Producto IV</Link></li>
             </ul>
             </li>
             <li className="nav-item">

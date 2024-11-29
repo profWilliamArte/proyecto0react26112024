@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const Producto3 = () => {
+const Tabla3 = () => {
   const [tablaSeleccionada, setTablaSeleccionada] = useState(1);
   
   const botones = Array.from({ length: 15 }, (_, i) => i + 1); // Genera números del 1 al 15
@@ -30,4 +30,4 @@ const Producto3 = () => {
   );
 };
 
-export default Producto3;
+export default Tabla3;

@@ -5,11 +5,12 @@ import Inicio from "./pages/Inicio"
 import Error404 from "./pages/Error404"
 import Nosotros from "./pages/Nosotros"
 import Servicios from "./pages/Servicios"
-import Producto1 from "./pages/(productos)/Producto1"
-import Producto3 from "./pages/(productos)/Producto3"
-import Producto2 from "./pages/(productos)/Producto2"
+import Tabla1 from "./pages/(tablas)/Tabla1"
+import Tabla2 from "./pages/(tablas)/Tabla2"
+import Tabla3 from "./pages/(tablas)/Tabla3"
+import Tabla4 from "./pages/(tablas)/Tabla4"
 import Contactos from "./pages/Contactos"
-import Producto4 from "./pages/(productos)/Producto4"
+
 
 
 
@@ -24,12 +25,12 @@ const App = () => {
             <Route path="/inicio" element={<Inicio/>}/>
             <Route path="/nosotros" element={<Nosotros/>}/>
             <Route path="/servicios" element={<Servicios/>}/>
-            <Route path="/producto1" element={<Producto1/>}/>
-            <Route path="/producto2" element={<Producto2/>}/>
-            <Route path="/producto3" element={<Producto3/>}/>
-            <Route path="/producto4" element={<Producto4/>}/>
-            <Route path="/contactos" element={<Contactos/>}/>
-            <Route path="*" element={<Error404/>}/>
+            <Route path="/Tabla1" element={<Tabla1/>}/>
+            <Route path="/tabla1" element={<Tabla1/>}/>
+            <Route path="/tabla2" element={<Tabla2/>}/>
+            <Route path="/tabla3" element={<Tabla3/>}/>
+            <Route path="/tabla4" element={<Tabla4/>}/>
+            <Route path="*" element={<Inicio/>}/>
           </Routes>
       </main>
       <Footer/>
