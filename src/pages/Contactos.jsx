@@ -2,7 +2,12 @@
 
 const Contactos = () => {
   return (
-    <h3 className="text-center py-4">Contactos</h3>
+    <div className="container">
+      <h3 className="text-center py-4">Contactos</h3>
+    
+    </div>
+    
+
   )
 }
 

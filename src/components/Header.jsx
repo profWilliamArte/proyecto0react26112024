@@ -21,17 +21,17 @@ const Header = () => {
             <Link to={"/nosotros"} className="nav-link" href="#">Nosotros</Link>
             </li>
             <li className="nav-item">
-             <Link to={"/servicios"} className="nav-link" href="#">Servicios</Link>
+             <Link to={"/contador"} className="nav-link" href="#">Contador</Link>
             </li>
             <li className="nav-item dropdown">
             <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Productos
+            Tablas
             </a>
             <ul className="dropdown-menu">
-                <li><Link to={"/tabla1"} className="dropdown-item" href="#">Producto I</Link></li>
-                <li><Link to={"/tabla2"} className="dropdown-item" href="#">Producto II</Link></li>
-                <li><Link to={"/tabla3"} className="dropdown-item" href="#">Producto III</Link></li>
-                <li><Link to={"/tabla4"} className="dropdown-item" href="#">Producto IV</Link></li>
+                <li><Link to={"/tabla1"} className="dropdown-item" href="#">Tabla I</Link></li>
+                <li><Link to={"/tabla2"} className="dropdown-item" href="#">Tabla II</Link></li>
+                <li><Link to={"/tabla3"} className="dropdown-item" href="#">Tabla III</Link></li>
+                <li><Link to={"/tabla4"} className="dropdown-item" href="#">Tabla IV</Link></li>
             </ul>
             </li>
             <li className="nav-item">
