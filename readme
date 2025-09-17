@@ -5,7 +5,7 @@
 Aquí aprenderemos los conceptos más básicos: cómo se inicializa un proyecto, cuál es la función de cada archivo principal y cómo poner en marcha nuestro servidor de desarrollo.
 
 ### 🎯 Objetivo Principal
-
+ 
 *   Familiarizarse con la estructura de carpetas de un proyecto creado con **Vite**.
 *   Entender el rol de los archivos clave como `index.html`, `main.jsx` y `App.jsx`.
 *   Aprender los comandos básicos para instalar dependencias y ejecutar la aplicación en modo de desarrollo.
