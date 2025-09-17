@@ -1,0 +1,57 @@
+# Proyecto 0: Mi Primera Aplicación con React
+
+¡Bienvenido al mundo del desarrollo frontend con React! Este es nuestro primer proyecto y sirve como punto de partida para entender cómo se estructura y funciona una aplicación de React moderna.
+
+Aquí aprenderemos los conceptos más básicos: cómo se inicializa un proyecto, cuál es la función de cada archivo principal y cómo poner en marcha nuestro servidor de desarrollo.
+
+### 🎯 Objetivo Principal
+
+*   Familiarizarse con la estructura de carpetas de un proyecto creado con **Vite**.
+*   Entender el rol de los archivos clave como `index.html`, `main.jsx` y `App.jsx`.
+*   Aprender los comandos básicos para instalar dependencias y ejecutar la aplicación en modo de desarrollo.
+
+### 📂 Estructura del Proyecto
+
+Un proyecto de React creado con Vite tiene una estructura inicial muy limpia. Los archivos más importantes con los que trabajaremos se encuentran en la carpeta `src` (source/código fuente).
+```
+  node_modules       # Carpeta con todas las dependencias instaladas 
+  public             # Archivos estáticos públicos (imágenes, fuentes, etc.) 
+  src
+  assets             # Recursos como imágenes o CSS que se usan en los componentes
+  App.css            # Estilos para el componente App
+  App.jsx            # El componente principal de nuestra aplicación
+  index.css          # Estilos globales
+  main.jsx           # El punto de entrada de la aplicación. Aquí React toma el control.
+  .gitignore         # Archivos que Git debe ignorar
+  index.html         # La única página HTML de nuestra aplicación (SPA)
+  package.json       # Define el proyecto, sus dependencias y scripts 
+  vite.config.js     # Archivo de configuración de Vite
+```
+---
+
+## 🚀 Pasos para Ejecutar este Proyecto
+
+Para poner en marcha este proyecto en tu computadora local, solo necesitas seguir estos tres sencillos pasos.
+
+### Paso 1: Clonar el Repositorio
+
+Abre tu terminal, navega a la carpeta donde guardas tus proyectos y clona este repositorio usando el siguiente comando:
+```bash
+git clone https://github.com/profWilliamArte/proyecto0react26112024.git
+Luego, ingresa a la carpeta del proyecto:
+cd proyecto0react26112024
+Paso 2: Instalar las Dependencias
+El archivo package.json ya contiene la lista de todas las "piezas" que nuestro proyecto necesita para funcionar (como la librería de React). Para descargarlas e instalarlas, ejecuta:
+npm install
+Este comando leerá el package.json y creará la carpeta node_modules con todo lo necesario.
+Paso 3: Iniciar el Servidor de Desarrollo
+¡Es hora de ver la magia! Para iniciar la aplicación, ejecuta el siguiente comando:
+npm run dev
+Este comando utilizará Vite para iniciar un servidor de desarrollo local. Tu terminal te mostrará una URL (generalmente http://localhost:5173/). Abre esa dirección en tu navegador y verás tu primera aplicación de React funcionando.
+La gran ventaja de este servidor es que tiene Hot Reload: cada vez que guardes un cambio en un archivo, la página en el navegador se actualizará automáticamente.
+
+--------------------------------------------------------------------------------
+📖 Conceptos Clave en este Proyecto
+• index.html: A diferencia de los sitios web tradicionales, en una Single Page Application (SPA) como esta, solo tenemos un archivo HTML. Fíjate que dentro del <body> solo hay un <div> con id="root".
+• src/main.jsx: Este es el archivo JavaScript que se ejecuta primero. Su misión es encontrar el <div id="root"> en el index.html y "montar" o renderizar nuestro componente principal de React (App) dentro de él.
+• src/App.jsx: ¡Aquí es donde comienza la diversión! Este es nuestro primer componente de React. Todo lo que veas en la pantalla es generado por el código que está en este archivo y en los componentes que llame. Este será el archivo que más modificarás al principio.
